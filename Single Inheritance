@@ -1,0 +1,8 @@
+Class Alpha:
+    def fun1(self):
+        print("Iam an Alpha")
+Class Beta(Alpha):
+    def fun2(self):
+        print("iam beta")
+b=Beta()
+b.fun1()
