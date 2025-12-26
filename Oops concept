@@ -1,0 +1,14 @@
+class Car:
+    def __init__(self):
+        self.name="swift"
+        self.price=12344
+        self.color="black"
+    def accelerate(self):
+        print("iam accelerating")
+        print(self.color)
+    def break_system(self):
+        print("iam stopping")
+    def start(self):
+        print("iam starting")
+c1=Car()
+print(c1.accelerate)
