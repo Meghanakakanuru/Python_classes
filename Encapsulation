@@ -1,0 +1,13 @@
+Class Accountholder:
+    def __init__(self):
+        self.AccountNo=12346
+        self.__balance=3124
+        self.__password=12346
+    def __init__(self):
+        self.__password=12346
+    def setpassword(self,p):
+        self.__password=p
+    def getpassword(self):
+        return self.__password
+a=Accountholder()
+print(a.__Accountholder__balance)
