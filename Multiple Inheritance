@@ -9,16 +9,4 @@ Class Gamma(Alpha,Beta):
         print("iam gamma")
 g=Gamma()
 g.fun1()
-Herarichal Inheritance:
-Class Alpha:
-    def fun1(self):
-        print("Iam an Alpha")
-Class Beta(Alpha):
-    def fun2(self):
-        print("iam beta")
-Class Gamma(Alpha):
-    def fun3(self):
-        print("iam gamma")
-b=Beta()
-b.fun1()
-b.fun2()
+
