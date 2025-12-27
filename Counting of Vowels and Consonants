@@ -1,0 +1,11 @@
+s="studying"
+vowel_count=0
+consonant_count=0
+r=['a','e','i','o','u','A','I','O','U','E']
+for char in s:
+    if char in r:
+        vowel_count+=1
+    else:
+        consonant_count+=1
+print("vowel_count:",vowel_count)
+print("consonant_count:",consonant_count)
