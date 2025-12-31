@@ -1,0 +1,8 @@
+s="eat"
+r="ate"
+def anagram(s,r):
+    for char in s:
+        if char not in r:
+            return False
+    return True
+print(anagram(s,r))
